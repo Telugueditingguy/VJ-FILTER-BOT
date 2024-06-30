@@ -19,8 +19,7 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'TechDxBot')
 API_ID = int(environ.get('API_ID', '29296297'))
-API_HASH = environ.get('API_HASH', '477a9529cfd84f4088539c6ab94351fc
-')
+API_HASH = environ.get('API_HASH', '477a9529cfd84f4088539c6ab94351fc ')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
