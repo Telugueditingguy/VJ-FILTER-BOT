@@ -66,10 +66,10 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'PBX1_OP') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovieGroupX1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/PanjabiMoviePBX1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Pbx1howtodwnload')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MovieGroupX1') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DxPanda')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BackUP_Panda')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/DxSupport_bot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DxSupport_bot') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
