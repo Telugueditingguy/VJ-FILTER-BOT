@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '25560929'))
 API_HASH = environ.get('API_HASH', '58ed5c8f34a39fa019b6d85c61116ca9')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7296150319:AAFSHlqsBkgIu1s9spouFJZD_egkO5ng-8A")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7186779501:AAHEvELhGwH6pEORJNRldP1gqTBxcIZT4Kg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -138,7 +138,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://vjautopbx1-57eaea9f431e.herokuapp.com/")
+URL = environ.get("URL", "zealous-sonja-johnwicks-650ba2fa.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
